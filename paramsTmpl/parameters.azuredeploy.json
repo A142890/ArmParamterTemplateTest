@@ -1,0 +1,22 @@
+
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "siteName": {
+      "value": "thisismynewsite1216"
+    },
+    "hostingPlanName": {
+      "value": "thisismynewsite1216"
+    },
+    "siteLocation": {
+      "value": "East US"
+    },
+    "sku": {
+      "value": "Shared"
+    },
+    "workerSize": {
+      "value": "0"
+    }
+  }
+}
